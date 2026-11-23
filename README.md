@@ -6,7 +6,7 @@ Subject: Algorithms · Fourth semester · Academic period 2026–2027
 ## Team members
 - Narváez Farinango Genesis Camila
 - Merino Gonzales Miguel David
-- (Team member 3)
+- Riofrio Vivanco Daniel Antonio 
 - (Team member 4)
 
 ## Description
