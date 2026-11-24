@@ -7,7 +7,7 @@ Subject: Algorithms · Fourth semester · Academic period 2026–2027
 - Narváez Farinango Genesis Camila
 - Merino Gonzales Miguel David
 - Riofrio Vivanco Daniel Antonio 
-- (Team member 4)
+- Oña Mejía Erick Rolando
 
 ## Description
 Console application in Java that processes academic records. It implements and evaluates:
