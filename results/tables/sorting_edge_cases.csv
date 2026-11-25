@@ -1,21 +1,21 @@
 Case,Algorithm,Result,Comparisons,Movements,Time (ns),Correctly sorted,Same elements
-Test data,Bubble Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",25,42,2200,YES,YES
-Test data,Selection Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",28,12,1900,YES,YES
-Test data,Insertion Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",19,28,1400,YES,YES
-Test data,Shell Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",22,41,1600,YES,YES
-Empty,Bubble Sort,"[]",0,0,200,YES,YES
+Test data,Bubble Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",25,42,2400,YES,YES
+Test data,Selection Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",28,12,1500,YES,YES
+Test data,Insertion Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",19,28,1200,YES,YES
+Test data,Shell Sort,"[3, 12, 12, 18, 45, 45, 70, 90]",22,41,1700,YES,YES
+Empty,Bubble Sort,"[]",0,0,100,YES,YES
 Empty,Selection Sort,"[]",0,0,200,YES,YES
-Empty,Insertion Sort,"[]",0,0,100,YES,YES
+Empty,Insertion Sort,"[]",0,0,200,YES,YES
 Empty,Shell Sort,"[]",0,0,200,YES,YES
-One element,Bubble Sort,"[99]",0,0,100,YES,YES
+One element,Bubble Sort,"[99]",0,0,300,YES,YES
 One element,Selection Sort,"[99]",0,0,200,YES,YES
 One element,Insertion Sort,"[99]",0,0,200,YES,YES
-One element,Shell Sort,"[99]",0,0,300,YES,YES
-Repeated,Bubble Sort,"[5, 5, 5, 5]",3,0,800,YES,YES
-Repeated,Selection Sort,"[5, 5, 5, 5]",6,0,900,YES,YES
+One element,Shell Sort,"[99]",0,0,200,YES,YES
+Repeated,Bubble Sort,"[5, 5, 5, 5]",3,0,600,YES,YES
+Repeated,Selection Sort,"[5, 5, 5, 5]",6,0,800,YES,YES
 Repeated,Insertion Sort,"[5, 5, 5, 5]",3,6,700,YES,YES
-Repeated,Shell Sort,"[5, 5, 5, 5]",5,10,1100,YES,YES
-Already sorted,Bubble Sort,"[1, 2, 3, 4]",3,0,700,YES,YES
-Already sorted,Selection Sort,"[1, 2, 3, 4]",6,0,800,YES,YES
-Already sorted,Insertion Sort,"[1, 2, 3, 4]",3,6,700,YES,YES
+Repeated,Shell Sort,"[5, 5, 5, 5]",5,10,1000,YES,YES
+Already sorted,Bubble Sort,"[1, 2, 3, 4]",3,0,500,YES,YES
+Already sorted,Selection Sort,"[1, 2, 3, 4]",6,0,1100,YES,YES
+Already sorted,Insertion Sort,"[1, 2, 3, 4]",3,6,600,YES,YES
 Already sorted,Shell Sort,"[1, 2, 3, 4]",5,10,900,YES,YES
