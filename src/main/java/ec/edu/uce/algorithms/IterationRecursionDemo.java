@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+/**
+ * Compares the iterative and recursive versions of factorial,
+ * array sum and array maximum (result, operations and average time).
+ * Results: console and results/tables/iteration_recursion_results.csv
+ */
+
 public class IterationRecursionDemo {
     private static final int REPETITIONS = 5;
 

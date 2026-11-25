@@ -1,5 +1,9 @@
 package ec.edu.uce.algorithms;
 
+/**
+ * Iterative versions of factorial, array sum and array maximum.
+ */
+
 public class Iteration {
     public static class OperationMetric<T> {
         public final T result;

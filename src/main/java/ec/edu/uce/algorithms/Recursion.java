@@ -1,5 +1,10 @@
 package ec.edu.uce.algorithms;
 
+/**
+ * Recursive versions of factorial, array sum and array maximum.
+ * The counter registers one operation per recursive call.
+ */
+
 public class Recursion {
     private static class Counter {
         long operations = 0;
