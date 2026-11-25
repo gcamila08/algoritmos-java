@@ -8,7 +8,6 @@ Subject: Algorithms · Fourth semester · Academic period 2026–2027
 - Merino Gonzales Miguel David
 - Riofrio Vivanco Daniel Antonio 
 - Oña Mejía Erick Rolando
-
 ## Description
 Console application in Java that processes academic records. It implements and evaluates:
 
@@ -27,14 +26,15 @@ Console application in Java that processes academic records. It implements and e
 - **Time:** measured with `System.nanoTime()`, only around the algorithm (data generation and console output are excluded). Each algorithm runs on an identical copy of the data.
 
 ## Requirements
-- Java (JDK 23, as set in `pom.xml`)
+- Java (JDK 23)
 - Maven
 - IntelliJ IDEA (recommended)
 
 ## How to run
 1. Clone the repository and open the project in IntelliJ IDEA.
-2. Run `src/main/java/ec/edu/uce/algoritmos/Main.java`.
-3. The console shows the results of the four activities, and the benchmark file is created at `results/tables/benchmark_results.csv`.
+2. Run `src/main/java/ec/edu/uce/algorithms/Main.java`.
+3. The console shows the results of the four activities, and the result tables are created in `results/tables/` (`complexity_results.csv`, `iteration_recursion_results.csv`, `sorting_edge_cases.csv` and `benchmark_results.csv`).
+4. Each activity can also be run independently from its Demo class or from `Benchmark.java`.
 
 ## Project structure
 ```
