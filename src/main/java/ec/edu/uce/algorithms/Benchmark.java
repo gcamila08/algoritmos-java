@@ -1,10 +1,6 @@
 package ec.edu.uce.algorithms;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Activity 4: benchmark that compares the four sorting algorithms
