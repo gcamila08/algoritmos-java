@@ -18,6 +18,29 @@ public class Main {
         var resC = Complexity.halveUntilOne(16);
         System.out.println("Algorithm C O(log n) with n=16 -> Steps: " + resC.halvingSteps);
         ComplexityDemo.run();
+        // ---------------- ACTIVITY 2 ----------------
+        System.out.println("\n--- ACTIVITY 2: ITERATION VS RECURSION (required test case) ---");
+        int[] values = {8, 3, 10, 2, 7};
+        int number = 5;
+
+        var fIter = Iteration.iterativeFactorial(number);
+        var fRec = Recursion.recursiveFactorial(number);
+        System.out.println("Factorial " + number + " -> Iter: " + fIter.result + " (" + fIter.operations
+                + " ops) | Rec: " + fRec.result + " (" + fRec.operations + " ops)");
+
+        var sIter = Iteration.iterativeArraySum(values);
+        var sRec = Recursion.recursiveArraySum(values);
+        System.out.println("Sum -> Iter: " + sIter.result + " (" + sIter.operations
+                + " ops) | Rec: " + sRec.result + " (" + sRec.operations + " ops)");
+
+        var mIter = Iteration.iterativeArrayMax(values);
+        var mRec = Recursion.recursiveArrayMax(values);
+        System.out.println("Max -> Iter: " + mIter.result + " (" + mIter.operations
+                + " ops) | Rec: " + mRec.result + " (" + mRec.operations + " ops)");
+
+        IterationRecursionDemo.run();
+        ValidationDemo.run();
+
         // ---------------- ACTIVITY 3 ----------------
         System.out.println("\n--- ACTIVITY 3: SORTING (required test case) ---");
         int[] dataToSort = {45, 12, 90, 12, 3, 70, 45, 18};
